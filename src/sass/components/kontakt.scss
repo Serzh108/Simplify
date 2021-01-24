@@ -1,0 +1,36 @@
+.kontakt {
+  padding-bottom: 156px;
+  text-align: center;
+  font-size: 36px;
+
+  &__title {
+    font-size: 30px;
+    line-height: 60px;
+    color: #fff;
+    margin-bottom: 90px;
+  }
+
+  &__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__text {
+    font-size: 36px;
+    line-height: 1;
+    text-align: left;
+    color: $secondary-accent-color;
+    // ???
+    padding-right: 0;
+  }
+
+  &__text p {
+    margin: 0 0 12px;
+
+    & a {
+      color: $secondary-accent-color;
+      text-decoration: underline;
+    }
+  }
+}

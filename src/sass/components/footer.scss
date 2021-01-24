@@ -1,0 +1,17 @@
+.footer {
+  height: 150px;
+  line-height: 150px;
+  background-color: $bg-color;
+  font-size: 30px;
+
+  & p {
+    margin-bottom: 0;
+  }
+
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+  }
+}

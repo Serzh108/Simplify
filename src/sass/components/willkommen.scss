@@ -1,0 +1,37 @@
+.willkommen {
+  background-color: $bg-color;
+  // background-color: rgba(112, 113, 115, 0.25);
+  padding: 120px 0;
+  margin-bottom: 80px;
+
+  // &__block {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+
+  //   &-box {
+  //     width: 50%;
+  //   }
+  // }
+
+  &__title {
+    font-size: 60px;
+    line-height: 1;
+    margin: 0 0 22px;
+  }
+
+  &__text {
+    font-size: 30px;
+    line-height: 1.4;
+    margin: 0 0 50px;
+  }
+
+  &__text:last-of-type {
+    margin: 0;
+  }
+
+  & img {
+    // height: 100%;
+    margin-bottom: 30px;
+  }
+}

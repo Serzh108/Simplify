@@ -1,0 +1,26 @@
+.container1 {
+  min-width: 300px;
+  // width: 90%;
+  width: 1350px;
+  //temp!!!
+  margin: 0 auto;
+  // TABLET
+  // @media screen and (min-width: 768px) {
+  //   width: 710px;
+  // }
+  // DESKTOP
+  @media screen and (min-width: 1420px) {
+    width: 1350px;
+  }
+}
+
+// .container {
+@media (min-width: 1390px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1380px;
+  }
+}

@@ -1,0 +1,14 @@
+/*
+ * Все паршалы импортировать в этот файл
+ */
+
+@import 'normalize.scss';
+@import './helpers/variables.scss';
+@import 'base.scss';
+@import './components/container.scss';
+@import './components/header.scss';
+@import './components/slider.scss';
+@import './components/kategorien.scss';
+@import './components/willkommen.scss';
+@import './components/kontakt.scss';
+@import './components/footer.scss';
