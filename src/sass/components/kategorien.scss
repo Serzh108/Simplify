@@ -1,15 +1,33 @@
 .kategorien {
-  padding: 0 0 120px;
+  padding: 0 0 40px;
   margin: 0 auto;
+  @media screen and (min-width: 576px) {
+    padding: 0 0 120px;
+  }
 
   &__title {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 60px;
-    padding-bottom: 90px;
+    padding-bottom: 1.5em;
     margin: 0;
     color: #fff;
     text-align: center;
+    @media screen and (min-width: 576px) {
+      font-size: 30px;
+      padding-bottom: 90px;
+    }
+
+    & span {
+      display: block;
+      line-height: 1;
+      margin: 0 auto;
+      width: 60vw;
+
+      @media screen and (min-width: 460px) {
+        display: inline;
+      }
+    }
   }
 
   &__block {
@@ -19,16 +37,29 @@
 
     &-text {
       padding-bottom: 20px;
-      margin: 0;
-      font-size: 36px;
+      margin: 0 0 0.5em;
+      font-size: 24px;
       font-weight: 700;
       line-height: 1;
       // text-align: center;
       border-bottom: 3px solid $secondary-font-color;
+      @media screen and (min-width: 576px) {
+        font-size: 18px;
+        margin: 0;
+      }
+      @media screen and (min-width: 768px) {
+        font-size: 24px;
+      }
+      @media screen and (min-width: 992px) {
+        font-size: 36px;
+      }
     }
   }
 
   & img {
-    margin: 0 auto 44px;
+    margin: 0 auto 24px;
+    @media screen and (min-width: 576px) {
+      margin: 0 auto 44px;
+    }
   }
 }

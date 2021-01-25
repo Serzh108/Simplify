@@ -1,28 +1,64 @@
 .kontakt {
-  padding-bottom: 156px;
+  padding-bottom: 60px;
   text-align: center;
   font-size: 36px;
-
-  &__title {
-    font-size: 30px;
-    line-height: 60px;
-    color: #fff;
-    margin-bottom: 90px;
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 100px;
+  }
+  @media screen and (min-width: 1390px) {
+    padding-bottom: 156px;
   }
 
-  &__block {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  &__title {
+    font-size: 24px;
+    line-height: 60px;
+    color: #fff;
+    margin-bottom: 30px;
+    @media screen and (min-width: 576px) {
+      font-size: 30px;
+      margin-bottom: 90px;
+    }
+  }
+
+  // &__block {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+
+  // }
+
+  &__img {
+    margin-bottom: 16px;
+    @media screen and (min-width: 576px) {
+      margin-bottom: 0;
+    }
   }
 
   &__text {
-    font-size: 36px;
+    font-size: 16px;
     line-height: 1;
     text-align: left;
     color: $secondary-accent-color;
     // ???
     padding-right: 0;
+    @media screen and (min-width: 420px) {
+      font-size: 24px;
+    }
+    @media screen and (min-width: 576px) {
+      font-size: 15px;
+    }
+    @media screen and (min-width: 768px) {
+      font-size: 20px;
+    }
+    @media screen and (min-width: 992px) {
+      font-size: 24px;
+    }
+    @media screen and (min-width: 1200px) {
+      font-size: 30px;
+    }
+    @media screen and (min-width: 1390px) {
+      font-size: 36px;
+    }
   }
 
   &__text p {

@@ -1,22 +1,52 @@
 .willkommen {
   background-color: $bg-color;
-  padding: 120px 0;
+  padding: 40px 0;
   margin-bottom: 80px;
+  @media screen and (min-width: 992px) {
+    padding: 60px 0;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 120px 0;
+  }
 
   &__title {
-    font-size: 60px;
+    font-size: 24px;
     line-height: 1;
-    margin: 0 0 22px;
+    margin: 0 0 12px;
+    @media screen and (min-width: 992px) {
+      font-size: 36px;
+      margin: 0 0 22px;
+    }
+    @media screen and (min-width: 1200px) {
+      font-size: 48px;
+    }
+    @media screen and (min-width: 1390px) {
+      font-size: 60px;
+    }
   }
 
   &__text {
-    font-size: 30px;
+    font-size: 16px;
     line-height: 1.4;
-    margin: 0 0 50px;
+    margin: 0 0 16px;
+    @media screen and (min-width: 992px) {
+      font-size: 18px;
+      margin: 0 0 32px;
+    }
+    @media screen and (min-width: 1200px) {
+      font-size: 24px;
+    }
+    @media screen and (min-width: 1390px) {
+      font-size: 30px;
+      margin: 0 0 50px;
+    }
   }
 
   &__text:last-of-type {
-    margin: 0;
+    margin: 0 0 16px;
+    @media screen and (min-width: 768px) {
+      margin: 0;
+    }
   }
 
   & img {
